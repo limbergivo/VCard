@@ -1,0 +1,144 @@
+body{
+  background-color: #0039FF;
+  color:#0039FF;
+}
+
+ h2{
+   color:#0039FF;
+   font-weight: bold;
+   margin-top: 35px;
+   margin-left: 35px;
+   text-align: left;
+
+ }
+
+p{
+  width: 40%;
+  text-align: center;
+  padding-left:60%;
+  padding-bottom: 15px;
+  color:#0039FF;
+}
+
+ul{
+  list-style: none;
+  align-items: left;
+  padding: 5px 0px 100px 15px;
+  color:#0039FF;
+}
+
+a{
+  padding: 5px;
+}
+
+
+.vCardcontainer{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  margin-top: 10%; /* center body Vcard*/
+  height: 400px;
+}
+
+.Vcardheader{
+  background-color: #fff;
+  color:#0039FF;
+  width: 100%;
+  text-align: center;
+  height:100px;
+  border-bottom: 5px solid #0039FF;;
+}
+
+.Vcardbody{
+  border: 5px solid #fff;
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+}
+
+.Vcardlist{
+  display:flex;
+  width: 100%;
+  align-items: right;
+  padding-bottom: 155px;
+}
+
+.vcardimg{
+  display: flex;
+  width: 30%;
+  height: 100%;
+  background-image: url(ivo.jpg);
+  background-size: 35%;
+  background-repeat: no-repeat;
+  margin-left: 85%;
+  margin-bottom: 10%;
+}
+
+.socialmedia{
+  width: 50%;
+  margin-top:-25%;
+  margin-left:0%;
+}
+
+.download{
+   display: flex;
+   flex-direction: row;
+
+   width: 15%;
+   margin-top:32%;
+   padding-left: 52%;
+}
+
+/* Icon list & size*/
+.fa-linkedin{
+  font-size: 50px;
+  color:#fff;
+  }
+
+.fa-facebook{
+  font-size: 50px;
+  color: #fff;
+}
+
+.fa-instagram{
+  font-size: 50px;
+  color: #fff;
+}
+
+.fa-globe-americas{
+  font-size: 25px;
+  color: #0039FF;
+}
+
+.fa-city{
+  font-size: 25px;
+  color: #0039FF;
+}
+
+.fa-birthday-cake{
+  font-size: 25px;
+  color:#0039FF;
+}
+
+.fa-hospital{
+  font-size: 25px;
+  color: #0039FF;
+}
+
+.fa-male{
+  font-size: 25px;
+  color: #0039FF;
+}
+
+.fa-download{
+  font-size: 25px;
+  color: #0039FF
+}
+
+.fa-eye{
+  font-size:  25px;
+  color: #0039FF;
+}
+/*end Icon List*/
